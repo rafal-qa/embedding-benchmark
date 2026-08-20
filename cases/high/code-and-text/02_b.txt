@@ -1,0 +1,1 @@
+Reads a delimiter-separated sequence of key-value segments. Each valid segment must contain a separator after a nonempty key; surrounding whitespace is removed, later duplicate keys replace earlier ones, and malformed segments are ignored before the map is returned.

@@ -1,0 +1,25 @@
+description: >-
+  Same language and similar total size. Roughly 15% of sides a and b is one
+  byte-identical, self-contained fragment. Everything else implements unrelated
+  problems with different identifiers, literals and structure.
+pairs:
+  - id: "01"
+    note: python, invoice aging vs maze traversal
+  - id: "02"
+    note: typescript, colour palette vs task dependencies
+  - id: "03"
+    note: javascript, CSV column summary vs card dealing
+  - id: "04"
+    note: java, thermostat schedule vs word index
+  - id: "05"
+    note: kotlin, geographic track vs quiz grading
+  - id: "06"
+    note: c#, room booking vs value histogram
+  - id: "07"
+    note: go, DNS cache vs bowling score
+  - id: "08"
+    note: rust, permission audit vs polynomial evaluation
+  - id: "09"
+    note: php, basket coupons vs document outline
+  - id: "10"
+    note: elixir, sensor alarms vs election tally

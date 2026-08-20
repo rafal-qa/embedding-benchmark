@@ -1,0 +1,1 @@
+Splits a list into consecutive groups of a requested positive length while preserving order. The final group may be shorter when the list does not divide evenly, and an empty source produces an empty list.

@@ -1,0 +1,1 @@
+Accepts a whole-number duration and renders it as hours followed by two smaller time components. Negative durations are treated as zero, and the two smaller components are padded to two digits.

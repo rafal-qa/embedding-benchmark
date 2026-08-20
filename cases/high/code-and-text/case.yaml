@@ -1,0 +1,31 @@
+description: >-
+  Side a is code, side b is a short plain-English account of what it does — its
+  input-to-output behavior and edge cases, never how it works. The description
+  names no data structure or control-flow mechanism (no sorting, recursion,
+  dictionaries, loops); any other implementation of the same behavior would fit
+  it word for word. The two sides share no vocabulary: the code has generic
+  identifiers and no comments, and the description quotes nothing from it. The
+  snippets are everyday code, not well-known algorithms a model could recognise
+  by name. Words the language forces, such as list or size, may appear on both
+  sides.
+pairs:
+  - id: "01"
+    note: python, counting into a dictionary then ordering and truncating
+  - id: "02"
+    note: typescript, scanning a delimited string into key and value entries
+  - id: "03"
+    note: javascript, 4 independent rules reported as flags and a pass count
+  - id: "04"
+    note: java, stateful class holding a capped window of recent values
+  - id: "05"
+    note: kotlin, recursive tree walk carrying depth
+  - id: "06"
+    note: c#, whole seconds converted to a zero-padded time string
+  - id: "07"
+    note: go, running total that stops at the first point it reaches a target
+  - id: "08"
+    note: rust, values pulled inside a range with a count of those altered
+  - id: "09"
+    note: php, tiered branching that awards points and caps the result
+  - id: "10"
+    note: elixir, recursive splitting of a list into fixed-size chunks

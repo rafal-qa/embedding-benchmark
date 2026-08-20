@@ -1,0 +1,25 @@
+description: >-
+  Same language on both sides, nothing else shared. Different domain, different
+  identifiers, different literals, different shape. Both sides are close in
+  length. Only language keywords and common stdlib types overlap.
+pairs:
+  - id: "01"
+    note: python, query string char loop vs recursive matrix determinant
+  - id: "02"
+    note: typescript, pagination link builder vs temperature scale conversion table
+  - id: "03"
+    note: javascript, event emitter class vs dice sum probability loops
+  - id: "04"
+    note: java, compound interest accrual vs greedy word wrap
+  - id: "05"
+    note: kotlin, geographic bounding box vs caesar shift cipher
+  - id: "06"
+    note: c#, byte size formatter switch vs breadth-first graph order
+  - id: "07"
+    note: go, channel concurrency limiter vs roman numeral builder
+  - id: "08"
+    note: rust, permission bit flags vs sliding-window moving average
+  - id: "09"
+    note: php, breadcrumb trail builder vs prime sieve
+  - id: "10"
+    note: elixir, keyword option merge vs binary search tree insert

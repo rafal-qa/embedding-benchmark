@@ -1,0 +1,26 @@
+description: >-
+  Same language and heavily overlapping author-controlled identifiers, but
+  unrelated problems, domains and logic. Side a uses natural names. Side b
+  reuses as much of a's vocabulary and signatures as practical, making its
+  names intentionally misleading. Both sides are close in length.
+pairs:
+  - id: "01"
+    note: python, warehouse order allocation vs pixel-row run detection
+  - id: "02"
+    note: typescript, meeting-room availability vs password pattern scoring
+  - id: "03"
+    note: javascript, shopping-cart discounts vs plant growth simulation
+  - id: "04"
+    note: java, parcel route summary vs musical interval analysis
+  - id: "05"
+    note: kotlin, library loan renewal vs sensor burst partitioning
+  - id: "06"
+    note: c#, employee shift coverage vs grayscale image transform
+  - id: "07"
+    note: go, API retry schedule vs tournament standings
+  - id: "08"
+    note: rust, filesystem quota tracking vs geometric path simplification
+  - id: "09"
+    note: php, invoice reconciliation vs word-shape classification
+  - id: "10"
+    note: elixir, subscription plan changes vs cellular grid evolution

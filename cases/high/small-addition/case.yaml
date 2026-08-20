@@ -1,0 +1,26 @@
+description: >-
+  Same language. Side b contains every line of side a unchanged, plus 1 small
+  self-contained addition — a guard, an extra case, or a short extra function.
+  The addition is held to roughly 15% of the original length in every
+  pair, so all 10 measure the same amount of extra material.
+pairs:
+  - id: "01"
+    note: python accept-language parser, wildcard tag guard added inside the loop
+  - id: "02"
+    note: typescript history stack, clear method added
+  - id: "03"
+    note: javascript contrast ratio, AAA level check added
+  - id: "04"
+    note: java seat allocator, remaining seats method added
+  - id: "05"
+    note: kotlin wishlist, budget filter function added
+  - id: "06"
+    note: c# filename sanitizer, reserved name table and check added
+  - id: "07"
+    note: go chunked checksum, empty input short circuit added
+  - id: "08"
+    note: rust determinant, 1x1 matrix case added
+  - id: "09"
+    note: php vat number, country extraction method added
+  - id: "10"
+    note: elixir recurring task, overdue duration function added

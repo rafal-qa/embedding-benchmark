@@ -1,0 +1,4 @@
+description: Pair declared but the b side file is missing
+pairs:
+  - id: "01"
+    note: only the a side exists

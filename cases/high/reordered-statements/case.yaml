@@ -1,0 +1,26 @@
+description: >-
+  Same language, same identifiers, same literals, same statements — only their
+  order differs. Every move is between strictly independent statements: no data
+  dependency, no shared mutation, and branch swaps only within mutually
+  exclusive chains, so both sides compute identical results.
+pairs:
+  - id: "01"
+    note: python haversine, 2 functions swapped, coordinate conversions, deltas and x/y reordered
+  - id: "02"
+    note: typescript vector ops, 4 function definitions permuted, 2 local pairs swapped
+  - id: "03"
+    note: javascript templating, both constants and both functions swapped, 2 locals swapped
+  - id: "04"
+    note: java parking fee, 4 constants permuted, 2 methods swapped, 3 locals and exclusive branches reordered
+  - id: "05"
+    note: kotlin damage calculation, 2 functions swapped, 3 locals reversed, element branches reordered
+  - id: "06"
+    note: c# invoice, 3 fields reversed, constructor assignments, 2 methods and exclusive region branches swapped
+  - id: "07"
+    note: go path normalization, 2 functions swapped, 4 locals permuted, exclusive segment checks swapped
+  - id: "08"
+    note: rust statistics, 3 functions permuted, each function's 2 independent locals swapped
+  - id: "09"
+    note: php text statistics, 3 constants reversed, 2 splits and 2 accumulators swapped, loop body reordered
+  - id: "10"
+    note: elixir conversions, 3 attributes permuted, 6 function definitions permuted, 2 locals swapped

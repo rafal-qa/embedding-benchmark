@@ -1,0 +1,27 @@
+description: >-
+  Same implementation ported across a syntax-family boundary, with Python, Go or
+  Rust on one side and a C-family language on the other. Same algorithm and same
+  step sequence; identifiers follow the target language's conventions. Elixir is
+  excluded because immutability would force a fold, and no snippet has an error
+  path, so Go's error returns never have to become exceptions.
+pairs:
+  - id: "01"
+    note: python to java, luhn checksum over a digit loop with parity doubling
+  - id: "02"
+    note: python to c#, levenshtein distance on 2 rolling dp rows
+  - id: "03"
+    note: python to typescript, bucketize values into a histogram plus range labels
+  - id: "04"
+    note: python to php, column widths and row rendering for a text table
+  - id: "05"
+    note: go to java, kahn topological sort returning empty on a cycle
+  - id: "06"
+    note: go to javascript, base64 encoding with bit shifts and padding
+  - id: "07"
+    note: go to kotlin, url path matching with named and star wildcards
+  - id: "08"
+    note: rust to c#, quicksort with in-place lomuto partition
+  - id: "09"
+    note: rust to typescript, sliding window maximum over a deque of indices
+  - id: "10"
+    note: rust to kotlin, ini parser skipping blank, comment and malformed lines

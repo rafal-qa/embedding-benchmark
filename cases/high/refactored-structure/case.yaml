@@ -1,0 +1,27 @@
+description: >-
+  Same language, same behaviour, restructured. Side b applies exactly 2
+  refactorings to side a: 1 block extracted into a helper function, and 1
+  single-use variable inlined into its use site. Surviving identifiers and
+  literals are unchanged; the extraction introduces 1 new function name.
+  Line counts differ between sides, which is inherent to this case.
+pairs:
+  - id: "01"
+    note: python delivery fee, base rate block extracted, total inlined into round
+  - id: "02"
+    note: typescript wizard validation, required-field loop extracted, prefix inlined
+  - id: "03"
+    note: javascript image fitting, ratio selection extracted, horizontal gap inlined
+  - id: "04"
+    note: java amortization, payment formula extracted, principal part inlined
+  - id: "05"
+    note: kotlin knight moves, bounds check extracted, sorted result inlined
+  - id: "06"
+    note: c# picking route, per-leg cost extracted, rounded total inlined
+  - id: "07"
+    note: go hostname validation, label rules extracted, labels split inlined into the range
+  - id: "08"
+    note: rust tokenizer, number scanning extracted, trimmed input inlined
+  - id: "09"
+    note: php discounts, coupon check extracted, capped rate inlined
+  - id: "10"
+    note: elixir order states, transition lookup extracted, empty flag inlined

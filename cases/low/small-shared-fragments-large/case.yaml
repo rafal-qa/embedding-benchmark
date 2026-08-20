@@ -1,0 +1,26 @@
+description: >-
+  Same as low/small-shared-fragment, but files are about 4x larger.
+  Sides have similar total size and unrelated domains, identifiers and structure.
+  Several byte-identical fragments of varied form and position make up roughly
+  15% of each pair.
+pairs:
+  - id: "01"
+    note: python, package dependency resolver vs image metadata catalog
+  - id: "02"
+    note: typescript, permissions policy vs financial candle aggregation
+  - id: "03"
+    note: javascript, localization catalog vs board game engine
+  - id: "04"
+    note: java, train timetable vs syntax highlighter
+  - id: "05"
+    note: kotlin, inventory synchronization vs workout tracker
+  - id: "06"
+    note: c#, notification routing vs geometry mesh analysis
+  - id: "07"
+    note: go, lease manager vs text difference report
+  - id: "08"
+    note: rust, event calendar vs bytecode interpreter
+  - id: "09"
+    note: php, survey builder vs filesystem tree report
+  - id: "10"
+    note: elixir, metric sampling vs tournament bracket

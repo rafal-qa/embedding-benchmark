@@ -1,0 +1,26 @@
+description: >-
+  Same language, same algorithm, same structure, same literals. About half the
+  author-controlled identifiers are renamed to words unrelated to what they
+  hold — no synonyms, no shared stems, no description of the role. The other
+  half keep their original names. Which identifiers get renamed varies per pair.
+pairs:
+  - id: "01"
+    note: python dict diff, parameter and 1 result map and the second function renamed
+  - id: "02"
+    note: typescript throttle closure, callback, interval and queued args renamed
+  - id: "03"
+    note: javascript cookie parse and serialize, 1 function and both accumulators renamed
+  - id: "04"
+    note: java inventory reservation, class, 1 field and 2 methods renamed
+  - id: "05"
+    note: kotlin feature flag rollout, data class field, both functions and 1 local renamed
+  - id: "06"
+    note: c# weekly schedule, class, 1 field, 1 method and 1 local renamed
+  - id: "07"
+    note: go circuit breaker, struct, 2 fields and 1 method renamed
+  - id: "08"
+    note: rust semver, struct, 1 field, 1 function and 1 parameter renamed
+  - id: "09"
+    note: php strength meter, class, 1 method and the score accumulator renamed
+  - id: "10"
+    note: elixir batching, module, private function and 2 locals renamed

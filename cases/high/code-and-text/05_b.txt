@@ -1,0 +1,1 @@
+Walks an entire tree from its root and produces pairs containing each stored number and its distance from the root. It can also return the greatest distance found, with leaf nodes ending each branch.

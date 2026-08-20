@@ -1,0 +1,27 @@
+description: >-
+  Side a is code, side b is a short plain-English account of what some other,
+  unrelated snippet does. Both sides are about code logic, so this is more
+  realistic than pairing code with arbitrary prose. The code files and the
+  descriptions are the same material as high/code-and-text, only the pairing is
+  mismatched: every code is paired with a description that does not describe it.
+pairs:
+  - id: "01"
+    note: python, counting into a dictionary vs description of a capped-window class
+  - id: "02"
+    note: typescript, scanning a delimited string vs description of a recursive tree walk
+  - id: "03"
+    note: javascript, rules reported as flags vs description of seconds to a time string
+  - id: "04"
+    note: java, capped window of recent values vs description of a running total to a target
+  - id: "05"
+    note: kotlin, recursive tree walk vs description of pulling values inside a range
+  - id: "06"
+    note: c#, seconds to a time string vs description of tiered point scoring
+  - id: "07"
+    note: go, running total to a target vs description of recursive list chunking
+  - id: "08"
+    note: rust, pulling values inside a range vs description of counting into a dictionary
+  - id: "09"
+    note: php, tiered point scoring vs description of scanning a delimited string
+  - id: "10"
+    note: elixir, recursive list chunking vs description of rules reported as flags

@@ -1,0 +1,6 @@
+description: Identical code copied verbatim
+pairs:
+  - id: "01"
+    note: identical function
+  - id: "02"
+    note: identical class

@@ -1,0 +1,17 @@
+models:
+  - label: model-a@256
+    model: test/model-a
+    dimensions: 256
+  - label: model-b@512
+    model: test/model-b
+    dimensions: 512
+    api_base: http://localhost:1234
+
+cases:
+  - high/copy
+  - low/unrelated
+
+case_diff:
+  - name: copy-vs-unrelated
+    high: high/copy
+    low: low/unrelated

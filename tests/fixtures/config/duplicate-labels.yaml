@@ -1,0 +1,10 @@
+models:
+  - label: shared
+    model: test/model-a
+    dimensions: 256
+  - label: shared
+    model: test/model-b
+    dimensions: 512
+
+cases:
+  - high/copy

@@ -1,0 +1,26 @@
+description: >-
+  Both sides are byte-identical. Ceiling case: calibrates the top of the
+  similarity scale. Size is the variation across pairs — pair 01 is a few lines
+  and each pair after it is larger, up to about 200 lines. Terse languages take
+  the small sizes, verbose ones the large sizes. Each pair is a different domain.
+pairs:
+  - id: "01"
+    note: python clamp guard, 6 lines
+  - id: "02"
+    note: elixir slug maker, 11 lines
+  - id: "03"
+    note: kotlin weather classification, 17 lines
+  - id: "04"
+    note: javascript hex colour conversion, 34 lines
+  - id: "05"
+    note: typescript keyboard shortcut registry, 55 lines
+  - id: "06"
+    note: rust text statistics and token frequencies, 64 lines
+  - id: "07"
+    note: php rule-based input validator, 72 lines
+  - id: "08"
+    note: go expiring cache with eviction, 103 lines
+  - id: "09"
+    note: c# appointment calendar, 171 lines
+  - id: "10"
+    note: java order with lines, adjustments and status flow, 195 lines

@@ -1,0 +1,28 @@
+description: >-
+  Side a is TypeScript, side b is the JavaScript that the compiler emits for it,
+  committed verbatim. Side b is never hand-written or reformatted. Every pair
+  carries at least one TypeScript construct that changes shape in the output, so
+  the two sides are never the same code minus annotations. Compiled with
+  TypeScript 5.9.3, target esnext, module nodenext, strict true, inside a package
+  marked "type": "module", so the emit is ESM and carries no interop preamble.
+pairs:
+  - id: "01"
+    note: notification channels, interface and implements clause erased
+  - id: "02"
+    note: order status, string enum lowered to an assignment IIFE
+  - id: "03"
+    note: geometry helpers, namespace lowered to an IIFE with attached members
+  - id: "04"
+    note: shopping cart, constructor parameter properties split into fields and assignments
+  - id: "05"
+    note: duration conversion, 3 overload signatures dropped, implementation kept
+  - id: "06"
+    note: report hierarchy, abstract member and override modifiers erased
+  - id: "07"
+    note: retry backoff, const enum inlined at every use site, declaration gone
+  - id: "08"
+    note: generic registry, type parameters erased, private fields left bare
+  - id: "09"
+    note: shape union, type predicate and satisfies operator erased
+  - id: "10"
+    note: table helpers, keyof generics and a type-only export erased

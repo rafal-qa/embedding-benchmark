@@ -1,0 +1,1 @@
+Evaluates a piece of text against four independent requirements: minimum length, containing a number, containing an uppercase character, and having no surrounding whitespace. It returns each requirement's result, how many succeeded, and whether all four succeeded.

@@ -1,0 +1,1 @@
+Takes a sequence of integers and constrains each number to an inclusive lower and upper bound. Numbers outside the range are replaced by the nearest boundary, and the output contains both the adjusted list and how many entries changed.

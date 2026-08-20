@@ -1,0 +1,1 @@
+Calculates a score from an activity amount and an elapsed duration. More activity earns tiered points, a short duration adds points, valid positive inputs add another point, and the final score cannot exceed a fixed maximum.

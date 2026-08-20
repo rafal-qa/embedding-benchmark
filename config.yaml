@@ -1,0 +1,98 @@
+models:
+  - label: voyage-code-4@1024
+    model: voyage/voyage-code-4
+    dimensions: 1024
+  - label: voyage-code-3@1024
+    model: voyage/voyage-code-3
+    dimensions: 1024
+  - label: voyage-4-large@1024
+    model: voyage/voyage-4-large
+    dimensions: 1024
+  - label: voyage-4-large@256
+    model: voyage/voyage-4-large
+    dimensions: 256
+  - label: voyage-4-lite@1024
+    model: voyage/voyage-4-lite
+    dimensions: 1024
+  - label: voyage-3-large@1024
+    model: voyage/voyage-3-large
+    dimensions: 1024
+  - label: text-embedding-3-large@3072
+    model: text-embedding-3-large
+    dimensions: 3072
+  - label: text-embedding-3-small@1536
+    model: text-embedding-3-small
+    dimensions: 1536
+  - label: gemini-embedding-2@3072
+    model: gemini/gemini-embedding-2
+    dimensions: 3072
+  - label: gemini-embedding-2@3072|sim
+    model: gemini/gemini-embedding-2
+    dimensions: 3072
+    gemini2_task: sentence similarity
+  - label: jina-embeddings-v2-base-code@768|local
+    model: ollama/unclemusclez/jina-embeddings-v2-base-code
+    dimensions: 768
+    api_base: http://localhost:11434
+  - label: jina-embeddings-v2-base-code@768
+    model: jina_ai/jina-embeddings-v2-base-code
+    dimensions: 768
+  - label: jina-code-embeddings-1.5b@1536
+    model: jina_ai/jina-code-embeddings-1.5b
+    dimensions: 1536
+  - label: jina-code-embeddings-1.5b@256
+    model: jina_ai/jina-code-embeddings-1.5b
+    dimensions: 256
+  - label: jina-code-embeddings-0.5b@896
+    model: jina_ai/jina-code-embeddings-0.5b
+    dimensions: 896
+  - label: jina-code-embeddings-0.5b@256
+    model: jina_ai/jina-code-embeddings-0.5b
+    dimensions: 256
+  - label: jina-code-embeddings-0.5b@256|c2cQ
+    model: jina_ai/jina-code-embeddings-0.5b
+    dimensions: 256
+    jina_task: code2code.query
+  - label: jina-code-embeddings-0.5b@256|c2cP
+    model: jina_ai/jina-code-embeddings-0.5b
+    dimensions: 256
+    jina_task: code2code.passage
+  - label: cohere-embed-4@1536
+    model: embed-v4.0
+    dimensions: 1536
+    cohere_input_type: clustering
+
+cases:
+  - high/exact-copy
+  - high/formatting
+  - high/lang-similar-syntax
+  - high/lang-different-syntax
+  - high/renamed-identifiers
+  - high/different-literals
+  - high/reordered-statements
+  - high/refactored-structure
+  - high/small-addition
+  - high/small-additions-large
+  - high/different-algorithm
+  - high/transpiled
+  - high/code-and-text
+  - low/unrelated
+  - low/same-identifiers
+  - low/small-shared-fragment
+  - low/small-shared-fragments-large
+  - low/same-boilerplate
+  - low/code-and-text
+
+case_diff:
+  - name: code description
+    high: high/code-and-text
+    low: low/code-and-text
+  - name: code behavior
+    high: high/different-algorithm
+    low: low/unrelated
+  - name: boilerplate impact
+    high: low/same-boilerplate
+    low: low/unrelated
+  - name: identifier insensitivity
+    high: high/renamed-identifiers
+    low: low/same-identifiers

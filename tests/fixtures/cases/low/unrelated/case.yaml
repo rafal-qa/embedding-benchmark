@@ -1,0 +1,4 @@
+description: Unrelated code in different languages
+pairs:
+  - id: "01"
+    note: python arithmetic vs go handler

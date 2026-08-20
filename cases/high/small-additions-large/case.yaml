@@ -1,0 +1,27 @@
+description: >-
+  Same as high/small-addition, but the files are about 4x larger. Side b has every
+  line of side a, plus several small additions. Each addition is 3-5 lines: a
+  guard, an extra case, or a short function. Larger files get more additions, not
+  bigger ones. The total added is 12-20%, the same as in the smaller case. Only
+  the file size is different, so the two cases can be compared.
+pairs:
+  - id: "01"
+    note: python config parser, inline comments, hex values, section listing, default fallback
+  - id: "02"
+    note: typescript form state, duplicate guard, unchanged-value guard, error and touched queries
+  - id: "03"
+    note: javascript length calculator, finite checks, inverted clamp guard, subtract and zero test
+  - id: "04"
+    note: java table reader, comment lines skipped, empty check, header lookup helpers
+  - id: "05"
+    note: kotlin schedule expander, interval guard, skip clearing, last slot, richer label
+  - id: "06"
+    note: c# expression evaluator, blank input guard, variable removal and count, empty token guard
+  - id: "07"
+    note: go router, empty handler guard, empty parameter guard, method permission check
+  - id: "08"
+    note: rust log store, comment lines skipped, zero width guard, empty needle guard, newest entry
+  - id: "09"
+    note: php pricing engine, negative price guard, empty code guard, discount lookup
+  - id: "10"
+    note: elixir workflow, final state test, visited states, step count, reset

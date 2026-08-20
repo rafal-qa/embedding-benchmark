@@ -1,0 +1,27 @@
+description: >-
+  Same implementation ported between languages of the same C-family/OO syntax
+  group (Java, C#, JavaScript, TypeScript, Kotlin, PHP). Same algorithm, control
+  flow, structure and literals; identifiers follow the target language's
+  conventions. Python, Elixir, Go and Rust are excluded and belong to the
+  different-syntax case.
+pairs:
+  - id: "01"
+    note: java to c#, binary search and lower bound as static functions
+  - id: "02"
+    note: javascript to typescript, group and count items by key selector
+  - id: "03"
+    note: typescript to c#, stack class tracking its running maximum
+  - id: "04"
+    note: php to javascript, fluent query string builder class
+  - id: "05"
+    note: java to kotlin, stateful moving average over a fixed window
+  - id: "06"
+    note: c# to java, matrix transpose with row length validation
+  - id: "07"
+    note: kotlin to typescript, balanced bracket checker over a lookup map
+  - id: "08"
+    note: php to java, integer to roman numeral over an ordered lookup table
+  - id: "09"
+    note: javascript to php, recursive array flatten plus deduplication
+  - id: "10"
+    note: c# to kotlin, merging overlapping intervals on a record type

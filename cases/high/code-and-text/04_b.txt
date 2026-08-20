@@ -1,0 +1,1 @@
+Maintains a rolling collection of recent numbers with a fixed maximum size. Adding beyond that size discards the oldest number, and requesting the mean returns the mean of retained numbers or zero when none have been added.

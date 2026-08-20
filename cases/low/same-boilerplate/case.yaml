@@ -1,0 +1,27 @@
+description: >-
+  Each pair is two files built on the same popular framework, where roughly half
+  of each file is recognizable framework scaffolding — controller, component,
+  slice, listener or handler structure with its annotations, decorators or
+  lifecycle wiring — and the other half is unrelated core logic with its own
+  domain, identifiers and literals.
+pairs:
+  - id: "01"
+    note: spring mvc rest controller, compound interest schedule vs coordinate csv validation
+  - id: "02"
+    note: android activity, password strength scorer vs number-list statistics
+  - id: "03"
+    note: spring kafka listener, order-event dedupe vs temperature-threshold alert
+  - id: "04"
+    note: react function component, countdown timer vs star rating widget
+  - id: "05"
+    note: redux toolkit slice, shopping cart reducer vs table filter state
+  - id: "06"
+    note: angular component, search autocomplete vs file upload progress
+  - id: "07"
+    note: vue single-file component, rgb color picker vs tab bar
+  - id: "08"
+    note: wpf mvvm viewmodel, shipping cost quote vs url slug generator
+  - id: "09"
+    note: express router middleware, token bucket rate limit vs markdown link extraction
+  - id: "10"
+    note: nestjs controller and provider, invoice tax summary vs booking slot generation

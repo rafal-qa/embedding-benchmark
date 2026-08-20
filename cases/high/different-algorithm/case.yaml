@@ -1,0 +1,29 @@
+description: >-
+  Same language, same problem, identical output for every input. Side b solves it
+  with a different algorithm: a different core data structure, a different
+  control-flow shape, or both — never a restructuring of the same approach. The
+  two sides share no signature, identifiers or naming — function names,
+  parameters and locals are single distinct letters — so the only thing in common
+  is the underlying computation. Intrinsic literals that define the problem itself
+  (bracket sets, separators, algorithm constants) may coincide; nothing else does.
+pairs:
+  - id: "01"
+    note: python primes up to n, sieve of eratosthenes vs trial division
+  - id: "02"
+    note: typescript duplicate detection, hash set membership vs sort and adjacent scan
+  - id: "03"
+    note: javascript array flattening, recursion vs explicit stack loop
+  - id: "04"
+    note: java top-k word frequencies, full sort of entries vs bounded min-heap
+  - id: "05"
+    note: kotlin balanced brackets, stack vs repeated pair-removal loop
+  - id: "06"
+    note: c# reverse words in a sentence, split and rebuild vs in-place buffer double reversal
+  - id: "07"
+    note: go binary search insert position, iterative halving vs recursion
+  - id: "08"
+    note: rust longest common prefix, vertical char scan vs divide and conquer
+  - id: "09"
+    note: php luhn check, index-parity doubling loop vs reverse, map and sum
+  - id: "10"
+    note: elixir run-length encoding, chunk_by vs recursive multi-clause split

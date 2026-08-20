@@ -1,0 +1,27 @@
+description: >-
+  Same language, same identifiers, same structure. Every domain literal is
+  replaced by something unrelated — no shared words, no near-equivalents,
+  numbers of a different magnitude. Structural literals that belong to the
+  algorithm (index offsets, loop steps, radix, division by 100) are kept,
+  since changing those would stop the two sides being the same implementation.
+pairs:
+  - id: "01"
+    note: python http status classification, status sets, backoff bounds and return labels replaced
+  - id: "02"
+    note: typescript username validation, bounds, pattern, reserved list and messages replaced
+  - id: "03"
+    note: javascript byte formatting, unit names, step base and precision replaced
+  - id: "04"
+    note: java temperature alerts, 4 thresholds, level names and description text replaced
+  - id: "05"
+    note: kotlin colour palette, entries, prefix character and fallback value replaced
+  - id: "06"
+    note: c# currency formatting, symbol, both separators and decimal count replaced
+  - id: "07"
+    note: go cache ttl table, content types, durations and size limit replaced
+  - id: "08"
+    note: rust csv dialect, delimiter, quote, escape, line ending and newline check replaced
+  - id: "09"
+    note: php phone formatting, prefix table, separators, digit pattern and fallback replaced
+  - id: "10"
+    note: elixir traffic light, state atoms, durations and default duration replaced

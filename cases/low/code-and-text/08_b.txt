@@ -1,0 +1,1 @@
+Takes a collection of entries and a maximum result count. It ignores blank entries, normalizes capitalization and surrounding whitespace, counts duplicates, then returns the most frequent entries first, breaking ties alphabetically and restricting the output to the requested amount.

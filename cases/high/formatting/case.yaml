@@ -1,0 +1,25 @@
+description: >-
+  Side b is side a reformatted — whitespace and line breaks only. Identifiers,
+  literals and structure are untouched, so both sides have the same token
+  sequence. One pair per allowed language, each a different domain.
+pairs:
+  - id: "01"
+    note: python duration parser reindented to 2 spaces, blank lines dropped, comprehension wrapped
+  - id: "02"
+    note: typescript event emitter reindented to 4 spaces with allman braces and split parameter lists
+  - id: "03"
+    note: javascript deep merge converted to tabs with allman braces, blank lines dropped, condition joined
+  - id: "04"
+    note: java token bucket converted to tabs with allman braces, blank lines dropped, arguments split
+  - id: "05"
+    note: kotlin money class reindented to 2 spaces with allman braces and a broken call chain
+  - id: "06"
+    note: c# ledger reindented to 2 spaces with k&r braces and LINQ chains joined onto 1 line
+  - id: "07"
+    note: go middleware converted from tabs to 4 spaces, blank lines dropped, arguments and condition split
+  - id: "08"
+    note: rust run-length coding reindented to 2 spaces with allman braces and call chain joined
+  - id: "09"
+    note: php cart converted to tabs with k&r braces, blank lines dropped, array literal joined
+  - id: "10"
+    note: elixir word frequency reindented to 4 spaces with pipelines collapsed onto single lines

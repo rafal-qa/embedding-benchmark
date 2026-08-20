@@ -1,0 +1,39 @@
+[project]
+name = "embedding-bench"
+version = "0.1.0"
+description = "Embedding models benchmark for code duplication detection"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Rafal Kochanowski" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "litellm~=1.97.0",
+    "numpy~=2.5.2",
+    "python-dotenv~=1.2.3",
+    "pyyaml~=6.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.15.21",
+    "mypy>=2.3.0",
+    "types-pyyaml>=6.0.12.20260518",
+]
+
+[project.scripts]
+bench = "embedding_bench.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.11.15,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.mypy]
+exclude = "^(tests/fixtures|cases)/"
+
+[tool.ruff]
+extend-exclude = ["tests/fixtures", "cases"]

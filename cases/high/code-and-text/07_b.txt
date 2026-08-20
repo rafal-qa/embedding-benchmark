@@ -1,0 +1,1 @@
+Takes a sequence of integers and adds only the positive entries in order. Once the accumulated sum reaches a requested threshold, it returns that entry's position and the sum; otherwise, it returns a missing-position marker and the final sum.
